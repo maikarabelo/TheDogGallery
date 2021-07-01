@@ -1,0 +1,88 @@
+  *{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:1000;
+    font-size:100px;
+    text-align: center;
+    color: mediumblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+body{
+    padding: 0;
+    margin: 10px;
+    background-color:rgb(141, 186, 231);
+    
+    
+}
+.container
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/1903550.png);
+    
+}
+
+
+.overlay{
+    width: 100%;
+    background-color:rgba(141, 186, 231, 0.851);
+}
+footer{
+    font-size: 20px;
+    color: navy;
+}
+.gallery-img{
+    display: none;
+    max-height:500px;
+    margin-top: 70px;
+    margin-left: 700px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    border: 5px solid white;
+
+    
+}
+
+
+
+.active{
+    display: block;
+}
+
+.img-gallery
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(151, 148, 148);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px; 
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev{
+    margin-right: 15px;
+}
+.btn:disabled
+{
+    background-color: #777;
+    cursor: not-allowed;
+}
